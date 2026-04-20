@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sandeep;
+    src: url(SF.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sandeep;
+    padding-top: 20px;
+}
+
+nav {
+    background-color: #f5f5f7a8;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    height: 40px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 22px;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+svg {
+    scale: 1;
+    width: auto;
+    vertical-align: middle;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #4b4a4a;
+    font-weight: 499;
+    font-size: 14px;
+    margin: 0 19px;
+}
+
+.intro {
+    line-height: 22px;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #0071E3;
+    font-weight: 400;
+
+}
+
+.hero {
+    background-image: url(hero_iphone.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+
+.hero p {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.hero button {
+    font-size: 20px;
+    height: 40px;
+    width: 140px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+
+.btn1 {
+    border: none;
+    background-color: #0071E3;
+    color: white;
+    padding: 5px;
+}
+
+.btn2 {
+    border: 1.5px solid #0071E3;
+    background-color: white;
+    color: #0071E3;
+    padding: 5px;
+}
+
+.space {
+    height: 3%;
+}
+
+.hero2 {
+    background-image: url(hero_apple_watch_series_11.jpg);
+}
+
+.hero2 img {
+    height: 50px;
+}
+
+.hero2 p {
+    font-size: 30px;
+}
+
+.hero2 .btn2 {
+    width: 70px;
+    padding: 0;
+}
+
+.hero3 {
+    background-image: url(hero_macbook_neo.jpg);
+    padding-top: 3%;
+}
+
+.hero3 h1 {
+    font-size: 58px;
+}
+
+.hero3 p {
+    font-size: 30px;
+}
+
+.hero3 .btn2 {
+    width: 70px;
+    padding: 0;
+}
+
+.main2 {
+    position: relative;
+    min-height: 230.6vh;
+    width: 100%;
+    align-items: center;
+}
+
+.main2 button {
+    font-size: 14px;
+    height: 35px;
+    width: 105px;
+    margin: 0 5px;
+    border-radius: 50px;
+    border: 1.5px solid #0071E3;
+    font-weight: 300;
+}
+
+.main2 .btn2 {
+    width: 60px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.contain {
+    position: absolute;
+    width: 48vw;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    padding-top: 3%;
+    margin: 18px 1%;
+    font-weight: 350;
+}
+
+.ipad {
+    background-image: url(promo_ipad_air_m4.jpg);
+    top: 0;
+    left: 0;
+}
+
+.ipad img {
+    height: 33px;
+}
+
+.ipad p {
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.macbook {
+    background-image: url(promo_macbook_pro.jpg);
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+.macbook h2 {
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.macbook p {
+    font-size: 21px;
+    padding: 2px;
+    margin-bottom: 14px;
+    font-weight: 350;
+}
+
+.airpod {
+    background-image: url(promo_airpodspro_3.jpg);
+    top: 76.6vh;
+
+}
+
+.airpod h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.airpod p {
+    font-size: 22px;
+    padding: 2px;
+    margin-bottom: 14px;
+    font-weight: 350;
+}
+
+.watch {
+    background-image: url(promo_apple_watch.jpg);
+    top: 76.6vh;
+    color: white;
+    right: 0;
+}
+
+.watch h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 10;
+    letter-spacing: 1px;
+}
+
+.watch p {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 14px;
+    font-weight: 350;
+}
+
+.ipad2 {
+    background-image: url(promo_ipad_pro.jpg);
+    top: 153.2vh;
+    color: white;
+}
+
+.ipad2 h2 {
+    font-size: 39px;
+    letter-spacing: 1px;
+}
+
+.ipad2 p {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 14px;
+    font-weight: 350;
+}
+
+.tradein {
+    background-image: url(promo_iphone_tradein.jpg);
+    top: 153.2vh;
+    right: 0;
+}
+
+.tradein h2 {
+    font-size: 39px;
+    letter-spacing: 1px;
+}
+
+.tradein p {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 14px;
+    font-weight: 350;
+}
+
+.tradein button {
+    width: 150px;
+}
+
+.btn2:hover {
+    background-color: #0071E3;
+    color: white;
+}
+
+.foot {
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 80vh;
+    padding: 15px 17.5% 0;
+}
+
+.foot .para p {
+    font-size: 13.6px;
+    color: #4b4a4aa6;
+}
+
+.para {
+    border-bottom: 1px solid #4b4a4aa6;
+}
+
+.everything {
+    height: 45vh;
+    margin-top: 2%;
+    position: relative;
+}
+
+.ever {
+    width: 20%;
+    position: absolute;
+}
+
+.ever p {
+    font-size: 13px;
+    font-weight: 600 ;
+    color: #1f1f1f96;
+}
+
+.everything ul {
+    list-style-type: none;
+}
+
+.everything ul li {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 100;
+    color: #4b4a4a8c;
+}
+
+.shop {
+    top: 0;
+    left: 0;
+}
+
+.account {
+    left: 20%;
+    top: 0;
+}
+
+.appstore {
+    left: 40%;
+    top: 0;
+}
+
+.business {
+    left: 60%;
+    top: 0;
+}
+
+.appvalue {
+    top: 0;
+    left: 80%;
+}
+
+.entertainment {
+    left: 20%;
+    top: 100px;
+}
+
+.wallet {
+    left: 0;
+    top: 275px;
+}
+
+.education {
+    top: 75px;
+    left: 60%;
+}
+
+.healthcare {
+    left: 60%;
+    top: 170px;
+}
+
+.aboutpeople {
+    top: 151px;
+    left: 80%;
+}
+
+.government {
+    top: 215px;
+    left: 60%;
+}
+.phone a{
+    color: #0071E3;
+}
+.phone{
+    font-size: 13px;
+    color: #4b4a4a98;
+}
+.copyright{
+    font-size: 13px;
+    color: #4b4a4a;
+}
+.pgrey{
+    color: #4b4a4a94;
+}
+.india{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    font-size: 13px;
+    color: #4b4a4a;
+}
